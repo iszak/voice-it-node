@@ -1,6 +1,6 @@
 {
   "name": "voice-it",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "lib/voice-it.js",
   "files": [
     "lib"
