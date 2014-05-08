@@ -9,9 +9,5 @@ module.exports = {
 
   lib: {
     src: ['lib/**/*.js']
-  },
-
-  test: {
-    src: ['test/**/*.js']
   }
 }
