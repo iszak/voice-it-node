@@ -18,6 +18,12 @@ suite('VoiceIt', function() {
       );
     });
 
+    test('with developer id', function(){
+      VoiceIt('sample-id');
+
+      // TODO: Assert is set
+    });
+
     test('invalid options', function(){
       assert.throws(
         function(){
