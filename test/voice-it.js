@@ -9,6 +9,15 @@ suite('VoiceIt', function() {
 
 
   suite('#constructor', function(){
+    test('without new', function(){
+      assert.instanceOf(
+        VoiceIt({
+          developerId: 'sample-id'
+        }),
+        VoiceIt
+      );
+    });
+
     test('invalid options', function(){
       assert.throws(
         function(){
