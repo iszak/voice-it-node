@@ -7,7 +7,6 @@ module.exports = {
   lib: {
     files: '<%= jshint.lib.src %>',
     tasks: [
-      'jshint:lib',
       'mochaTest:lib'
     ]
   },
